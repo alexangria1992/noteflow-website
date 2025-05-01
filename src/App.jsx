@@ -1,10 +1,13 @@
-import Header from './sections/Header';
-import Page from './sections/Page';
+import Header from './components/sections/Header';
+import Navigation from './components/sections/Navigation';
+import Page from './components/sections/Page';
 
 function App() {
   return (
     <Page>
-      <Header />
+      <Header>
+        <Navigation />
+      </Header>
     </Page>
   );
 }
