@@ -12,8 +12,8 @@ import Navigation from './components/sections/Navigation';
 // Main
 import Logos from './components/sections/Logos';
 import Main from './components/sections/Main';
-
 import Features from './components/sections/Features';
+import FAQs from './components/sections/FAQs/FAQs';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       <Main>
         <Logos />
         <Features />
+        <FAQs />
       </Main>
     </Page>
   );
